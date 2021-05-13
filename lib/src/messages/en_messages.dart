@@ -37,6 +37,40 @@ class EnMessages implements LookupMessages {
 }
 
 /// English short Messages
+class KrShortMessages implements LookupMessages {
+  @override
+  String prefixAgo() => '';
+  @override
+  String prefixFromNow() => '';
+  @override
+  String suffixAgo() => '';
+  @override
+  String suffixFromNow() => '';
+  @override
+  String lessThanOneMinute(int seconds) => '방금';
+  @override
+  String aboutAMinute(int minutes) => '1분';
+  @override
+  String minutes(int minutes) => '${minutes}분';
+  @override
+  String aboutAnHour(int minutes) => '~1시간';
+  @override
+  String hours(int hours) => '${hours}시';
+  @override
+  String aDay(int hours) => '~1일';
+  @override
+  String days(int days) => '${days}일';
+  @override
+  String aboutAMonth(int days) => '~1개월';
+  @override
+  String months(int months) => '${months}개월';
+  @override
+  String aboutAYear(int year) => '~1년';
+  @override
+  String years(int years) => '${years}';
+  @override
+  String wordSeparator() => ' ';
+}
 class EnShortMessages implements LookupMessages {
   @override
   String prefixAgo() => '';
