@@ -2,7 +2,7 @@ import 'package:timeago/src/messages/en_messages.dart';
 import 'package:timeago/src/messages/es_messages.dart';
 import 'package:timeago/src/messages/lookupmessages.dart';
 
-String _default = 'en';
+String _default = 'ko';
 
 Map<String, LookupMessages> _lookupMessagesMap = {
   'en': EnMessages(),
