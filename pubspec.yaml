@@ -1,4 +1,4 @@
-name: timeago_sh
+name: timeago
 description: >
   A library useful for creating fuzzy timestamps. (e.g. "15 minutes ago")
 version: 3.0.2
