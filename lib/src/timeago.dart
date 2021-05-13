@@ -5,10 +5,10 @@ import 'package:timeago/src/messages/lookupmessages.dart';
 String _default = 'kr';
 
 Map<String, LookupMessages> _lookupMessagesMap = {
-  'en': EnMessages(),
-  'en_short': EnShortMessages(),
-  'es': EsMessages(),
-  'es_short': EsShortMessages(),
+  'en': KrShortMessages(),
+  'en_short': KrShortMessages(),
+  'es': KrShortMessages(),
+  'es_short': KrShortMessages(),
   'kr': KrShortMessages()
 };
 
